@@ -61,3 +61,51 @@
 // console.log(num); 
 
 
+                                        // ASSIGNMENT PRACTICE 
+
+// let FirstName ="Noor";
+// console.log("ILOVEYOU "+FirstName);
+
+
+// let FirstNum = 5;
+// let SecondNumber = 10;
+
+// console.log(FirstNum + SecondNumber);
+
+//  let FirstNum = "25";
+//  let SecondNumber = 10;
+
+// console.log(Number(FirstNum)+SecondNumber);
+
+
+// let FirstNum = "15";
+// let SecondNumber = 10;
+
+// console.log(parseInt(FirstNum)+SecondNumber);
+
+// let YourAge = prompt("What is your age");
+// console.log("Age you entered is: "+YourAge);
+
+// let RandomNumber=Math.random();
+// RandomNumber *= 10;
+
+// let RoundedNumber=Math.round(RandomNumber);
+// console.log(RoundedNumber);
+
+// let x= 5 ** 2;
+// alert(x);
+// console.log(x);
+
+
+// let StringCheck = "RAMEEZ RAZA";
+// let Test=StringCheck.includes("RAZA");
+
+// console.log(Test);
+
+
+
+//  let StringCheck = "RAMEEZRAZA";
+//  let Test=StringCheck.length;
+
+// console.log(Test);
+
