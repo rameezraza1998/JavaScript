@@ -25,7 +25,8 @@
 // console.log(parseInt(d) + d2);
 // console.log(+d + d2);
 
-// MATH OERATROR  = + - * % /
+// MATH OERATROR  = + - * % /    here we have to be more concern about + sign for what we are 
+                                    //using it for either for concatenation or addition
 
 // let d= "10";
 // let d2="3";
@@ -33,7 +34,30 @@
 // console.log(d%d2); // remainder
 
 
+// let userFavNum = prompt(" What is your favourite number ?"); // to ask for input from a user we use this syntax 
+// console.log(userFavNum);
 
 
+// let userName = prompt(" What is your name ?"); // to ask for input from a user we use this syntax  this will be display on dialouge box 
+// console.log("Welcome to my website "+userName); // this output will be display on console
+
+
+// DON'T USE THIS IT IS FOR KNOWLEDGE ONLY 
+// let userName = prompt(" What is your name ?");
+// document.write("Welcome to my website "+userName); // this output will be display on htmtl document means on Browser 
+
+
+// For random number we use this method
+
+// let RandomNumber = Math.random(); // function of Math.random 
+// RandomNumber =RandomNumber*10000; // here we multiplying to make no shorter
+
+// // RandomNumber *= 10; short hand of above line of code
+// let RoundedNumber=Math.round(RandomNumber);  // here we rounding off number function of Math.round 
+// console.log(RoundedNumber );
+
+
+// let num = 5 ** 3;  // another way of doing  double ** means power
+// console.log(num); 
 
 
