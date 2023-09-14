@@ -4,7 +4,7 @@
 
 
 
- // comparasion operators
+ //                                                 comparasion operators
  // 1 ==
 // 2 != or !=
  // 3 >=
@@ -21,7 +21,7 @@
 // console.log(num1 <= num2);
 
 
- //Multiple conditions through if and else
+ //                                         Multiple conditions through if and else
 
 // let YourAge = +prompt("Enter your age");  //here we use + for number type without + it will be string
 // if (YourAge >= 18) {
@@ -32,7 +32,8 @@
 //     console.log("you are not eligible to vote");
 // }
 
-// GAME OF GUESSING NUMBERS
+//                                              GAME OF GUESSING NUMBERS
+
 // alert("press OK to begin with game");
 // let YourNum = prompt("Enter Nuumber");
 // let RandomNumber = Math.round(Math.random() *10 );
@@ -45,14 +46,28 @@
 // }
 
 
-let YourNum = +prompt("Enter Nuumber");
-let RandomNumber = Math.round(Math.random() *10 );
+// let YourNum = +prompt("Enter Number");
+// let RandomNumber = Math.round(Math.random() *10 );
 
-if (RandomNumber%2 ===  0 && YourNum%2===0) {
-    console.log("Number is even" + RandomNumber);
-} else {
-    console.log("number is odd " + RandomNumber);
+// if (RandomNumber%2 ===  0 && YourNum%2===0) {
+//     console.log("Number is even " + RandomNumber);
+// } 
+
+// else if (RandomNumber%2 !==  0) {
+//     console.log("number is odd " + RandomNumber);
+// }
+// else{
+//         console.log("you lose " + RandomNumber);
+// }
+
+//                                              FOR LOOP 
    
+for (let i=1; i<11; i++) {
+    // console.log("hello world");
+    // console.log(" 2X"+i + "="+ 2*+i);
+    console.log(i);
+
 }
+
 
 
