@@ -62,12 +62,31 @@
 
 //                                              FOR LOOP 
    
-for (let i=1; i<11; i++) {
-    // console.log("hello world");
-    // console.log(" 2X"+i + "="+ 2*+i);
-    console.log(i);
+// for (let i=1; i<11; i++) {
+//     // console.log("hello world");
+//     // console.log(" 2X"+i + "="+ 2*+i);
+//     console.log(i);
 
+// }
+
+//                                                    ASSIGNMENT
+
+let Units = +prompt("pls enter your units");
+
+if (Units>=1 && Units<=50 ) {
+    console.log("For first 50 units Rs. 0.50/unit so your bill of "+Units+" is Rs"+0.50*+Units );
+    
+} 
+else if(Units>50 && Units<=100 ) {
+    console.log("For first 100 units Rs. 0.75/unit so your bill of "+Units+" is Rs"+0.75*+Units );
 }
+else if(Units>=101 && Units<=250 ) {
+    console.log("For first 50 units Rs. 1.20/unit so your bill of "+Units+" is Rs"+1.20*+Units );
+}
+else if(Units>25 ) {
+    console.log("For first 250 units Rs. 1.50/unit so your bill of "+Units+" is Rs"+1.50*+Units );
+}
+
 
 
 
