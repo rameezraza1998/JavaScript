@@ -55,7 +55,7 @@
 // let sum = add("1","3");
 // console.log(sum);
 
-// Recursion
+//                                                  Recursion
 
 
 // function write(data ,times) {
@@ -73,13 +73,19 @@
 
 function factorial(data) {
 
-    return data;
-//      if (data >=1) {
+   
+     if (data >=1) {
+        return data*factorial( data - 1);
  
-//         return data*factorial( data - 1);
- 
-//      }
-//  }
+     }
+     return 1;
+ }
 
-// let result = factorial(5);
-console.log(factorial(5));
+let result = factorial(5);
+console.log(result);
+
+
+
+
+
+//                                                      CLOSURE 
