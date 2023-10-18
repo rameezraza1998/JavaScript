@@ -25,16 +25,27 @@
 // let UserId = +prompt("enter here");
 // console.log(typeof(UserId));
 
-let StdName = prompt("Enter name here: ");
+// let StdName = prompt("Enter name here: ");
 
-let chem = +prompt("chem marks");
-let maths = +prompt("maths marks");
-let eng = +prompt("english marks");
-let urdu = +prompt("urdu marks");
-let physics = +prompt("physics marks");
+// let chem = +prompt("chem marks");
+// let maths = +prompt("maths marks");
+// let eng = +prompt("english marks");
+// let urdu = +prompt("urdu marks");
+// let physics = +prompt("physics marks");
 
-let total_marks = 500;
+// let total_marks = 500;
 
-let perecentage = ((chem + maths + eng + urdu + physics)/total_marks )* 100;
+// let perecentage = ((chem + maths + eng + urdu + physics)/total_marks )* 100;
 
-console.log(StdName + " got this perecenatge: "+ perecentage+"%");
+// console.log(StdName + " got this perecenatge: "+ perecentage+"%");
+// alert(StdName + " got this perecenatge: "+ perecentage+"%");
+
+
+let n1 = 20;
+let n2 = 30;
+
+console.log(n1 - n2);
+console.log(n1 + n2);
+console.log(n1 / n2);
+console.log(n1 * n2);
+console.log(n1 % n2);
