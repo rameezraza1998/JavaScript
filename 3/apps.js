@@ -1,4 +1,4 @@
-/// let FavNum = prompt("Enter your favourite number !");
+/// let FavNum = +prompt("Enter your favourite number !");
 
  // console.log(Number(FavNum) + 5);
 
