@@ -18,7 +18,7 @@
 // MAPS
 // only gives unique values not repetion
 
-const map = new Map()
+// const map = new Map()
 // map.set('ind','india')
 // map.set('uk','united kingdom')
 // map.set('pak','pakistan')
@@ -33,12 +33,12 @@ const map = new Map()
 // }
 // console.log(map.values);
 
-const game = {
-    game1: "nfs",
-    game2: "subway surfers",
-    js: "javascript",
-    cpp: "c++"
-}
+// const game = {
+//     game1: "nfs",
+//     game2: "subway surfers",
+//     js: "javascript",
+//     cpp: "c++"
+// }
 
 
 // this for of doesnt work like this in objects but work in maps & array
@@ -65,7 +65,7 @@ const game = {
 
 // for each 
 
-const coding = ["js", "cpp", "java", "python"]
+// const coding = ["js", "cpp", "java", "python"]
 // call back function doesnt have its name
 // coding.forEach( function (item) {
 //     console.log(item);
@@ -91,23 +91,23 @@ const coding = ["js", "cpp", "java", "python"]
 
 
 
-const user1=[
-    {
-        id:1,
-        name:"ali"
+// const user1=[
+//     {
+//         id:1,
+//         name:"ali"
 
-    },
-    {
-        id:2,
-        name:"m.ali"
+//     },
+//     {
+//         id:2,
+//         name:"m.ali"
 
-    },
-    {
-        id:3,
-        name:"ally"
+//     },
+//     {
+//         id:3,
+//         name:"ally"
 
-    }
-]
+//     }
+// ]
 
 // user1.forEach( (item, index, arr)=> {
 //     console.log(item,index, arr);
@@ -115,10 +115,10 @@ const user1=[
 
 
 
-user1.forEach( (item)=> {
-    console.log(item.id);
-})
+// user1.forEach( (item)=> {
+//     console.log(item.id);
+// })
 
-user1.forEach( (item)=> {
-    console.log(item.name);
-})
+// user1.forEach( (item)=> {
+//     console.log(item.name);
+// })
